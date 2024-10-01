@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.btn {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition;
+}
